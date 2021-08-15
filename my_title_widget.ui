@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyTitleWidget</class>
+ <widget class="QWidget" name="MyTitleWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>938</width>
+    <height>68</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0,0,0,0,0">
+   <property name="spacing">
+    <number>5</number>
+   </property>
+   <property name="leftMargin">
+    <number>20</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>20</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="all_resources.qrc">:/imgs/cqu_white.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="title_label">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>21</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white</string>
+     </property>
+     <property name="text">
+      <string> 基于机器学习的有机光伏材料性能预测系统</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="person_pb">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="all_resources.qrc">:/imgs/person.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="person_down_pb">
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+background:transparent;
+border-radius:7px;
+}
+QPushButton:hover 
+{ 
+    background-color: rgb(225, 225, 225); 
+}
+QPushButton:pressed
+{ 
+    background-color: rgb(255, 255, 255); 
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="all_resources.qrc">
+       <normaloff>:/imgs/arrow_down.png</normaloff>:/imgs/arrow_down.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="min_pb">
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+background:transparent;
+border-radius:7px;
+}
+QPushButton:hover 
+{ 
+    background-color: rgb(225, 225, 225); 
+}
+QPushButton:pressed
+{ 
+    background-color: rgb(255, 255, 255); 
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="all_resources.qrc">
+       <normaloff>:/imgs/sub.png</normaloff>:/imgs/sub.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="max_pb">
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+background:transparent;
+border-radius:7px;
+}
+QPushButton:hover 
+{ 
+    background-color: rgb(225, 225, 225); 
+}
+QPushButton:pressed
+{ 
+    background-color: rgb(255, 255, 255); 
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="all_resources.qrc">
+       <normaloff>:/imgs/kou.png</normaloff>:/imgs/kou.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="close_pb">
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+background:transparent;
+border-radius:7px;
+}
+QPushButton:hover 
+{ 
+    background-color: rgb(225, 225, 225); 
+}
+QPushButton:pressed
+{ 
+    background-color: rgb(255, 255, 255); 
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="all_resources.qrc">
+       <normaloff>:/imgs/cha.png</normaloff>:/imgs/cha.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="all_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,46 @@
+<RCC>
+  <qresource prefix="/">
+    <file>imgs/about_us.png</file>
+    <file>imgs/m_bb.png</file>
+    <file>imgs/main_page.png</file>
+    <file>imgs/arrow_left.png</file>
+    <file>imgs/arrow_left_blue.png</file>
+    <file>imgs/arrow_right.png</file>
+    <file>imgs/arrow_right_blue.png</file>
+    <file>imgs/cqu_white.png</file>
+    <file>imgs/arrow_down_blue.png</file>
+    <file>imgs/arrow_down.png</file>
+    <file>imgs/arrow_right.png</file>
+    <file>imgs/Browser.png</file>
+    <file>imgs/arrow_up.png</file>
+    <file>imgs/arrow_up_blue.png</file>
+    <file>imgs/Community.png</file>
+    <file>imgs/download.png</file>
+    <file>imgs/Eye.png</file>
+    <file>imgs/Home.png</file>
+    <file>imgs/upload.png</file>
+    <file>imgs/user.png</file>
+    <file>imgs/real_bg.png</file>
+    <file>imgs/real_Browser.png</file>
+    <file>imgs/real_Community.png</file>
+    <file>imgs/real_Eye.png</file>
+    <file>imgs/real_Home.png</file>
+    <file>imgs/cha.png</file>
+    <file>imgs/down.png</file>
+    <file>imgs/kou.png</file>
+    <file>imgs/person.png</file>
+    <file>imgs/sub.png</file>
+    <file>imgs/cqu.png</file>
+    <file>imgs/dkou.png</file>
+  </qresource>
+  <qresource prefix="htmls">
+    <file>other_sources/image-20210303162325866.png</file>
+    <file>other_sources/image-20210303162556824.png</file>
+    <file>other_sources/image-20210303162714458.png</file>
+    <file>other_sources/image-20210303163119835.png</file>
+    <file>other_sources/image-20210303163330177.png</file>
+    <file>other_sources/image-20210303163349319.png</file>
+    <file>other_sources/image-20210303163407803.png</file>
+    <file>other_sources/input_output_help.html</file>
+  </qresource>
+</RCC>
