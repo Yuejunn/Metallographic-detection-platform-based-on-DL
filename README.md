@@ -30,7 +30,7 @@
 
 - python3.6.12  
 
-```
+```python
 pyqt5                     5.15.2                   pypi_0    pypi
 pyqt5-qt                  5.15.2                   pypi_0    pypi
 pyqt5-sip                 12.8.1                   pypi_0    pypi
