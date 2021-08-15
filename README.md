@@ -12,18 +12,11 @@
 
 - 引入第三方库别用`from ... import *`，用`import`或要用啥引啥，比如`from PyQt5 import QWidget`，除了引入自己写的一些存常量的文件比如`my_styles.py`可以直接`from my_styles import *`。
 
-- `mainwidget`里面不同类别的成员函数放不同区域：
-
-  ```python
-  ###################################### 重写父类函数区 ######################################
-  pass
-  ###################################### 辅助函数 ######################################
-  pass
-  ```
-
-- **函数要表明返回值类型**：
+- 常量写在文件前头（`import`后面的位置）
 
 - 代码风格选**Pylance**（vscode设置`"python.languageServer": "Pylance",`）
+
+- **自定义函数要表明返回值类型**，槽函数或者重写父类函数可以不用。
 
   ```python
   def heihei(): -> None
@@ -32,36 +25,23 @@
       return True
   ```
 
-  
-
-- 函数或类的注释写定义下面（可以不用下面第二个那么详细，**但一定要写注释**）：
+- 在文件开头要写注释描述行为功能，函数或类的注释写定义下面，一般性的`#`注释写法可写可不写（**没特殊情况的话（比如整个文件都是用的别人的）函数和类一定要写注释**），当成员函数较多时，比如`MainWidget`类，里面不同类别的成员函数放不同区域：
 
   ```python
-  def paintEvent(self, e):
-      r"""绘制窗口背景阴影
+  r"""balabala
+  """
+  from H import he
+  
+  def hhh(he):
+      r"""balabala
       """
-  def set_default_tensor_type(t):
-      r"""Sets the default ``torch.Tensor`` type to floating point tensor type
-      ``t``. This type will also be used as default floating point type for
-      type inference in :func:`torch.tensor`.
-  
-      The default floating point tensor type is initially ``torch.FloatTensor``.
-  
-      Args:
-          t (type or string): the floating point tensor type or its name
-  
-      Example::
-  
-          >>> torch.tensor([1.2, 3]).dtype    # initial default for floating point is torch.float32
-          torch.float32
-          >>> torch.set_default_tensor_type(torch.DoubleTensor)
-          >>> torch.tensor([1.2, 3]).dtype    # a new floating point tensor
-          torch.float64
-  
       
-      if isinstance(t, _string_classes):
-          t = _import_dotted_name(t)
-      _C._set_default_tensor_type(t)
+      ###################################### 重写父类函数 ######################################
+      def paintEvent(self, e):
+          r"""绘制窗口背景阴影
+          """
+      ###################################### 辅助函数 ######################################
+      pass
   ```
 
 - 文件和文件夹使用**小写单词**命名，多个单词之间用下划线连接：

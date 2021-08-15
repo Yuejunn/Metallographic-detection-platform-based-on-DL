@@ -1,7 +1,8 @@
+r"""运行入口
+"""
 import sys
 from PyQt5 import QtWidgets
 import main_widget
-
 
 
 app = QtWidgets.QApplication(sys.argv)

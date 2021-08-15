@@ -1,3 +1,7 @@
+r"""
+存放一些CSS格式常量，当然也可以直接在ui里面改，但是这样方便写，有时也可实现动态效果
+"""
+
 HORIZONTAL_SCOLLBAR_STYLE = '''
 QScrollBar:horizontal
 {
